@@ -1,0 +1,7 @@
+{
+    "jiraHost": "<your-jira-host>",
+    "interceptPaths": [
+      "/rest/api/latest/user/assignable/search",
+      "/rest/api/2/jql/autocompletedata/suggestions"
+    ]
+  }

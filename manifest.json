@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Configurable Jira Interceptor POC",
+    "version": "1.0",
+    "description": "Intercepts and modifies Jira assignable user search requests",
+    "permissions": [
+      "webRequest",
+      "webRequestBlocking",
+      "<all_urls>"
+    ],
+    "background": {
+      "scripts": ["config.js", "background.js"],
+      "persistent": true
+    }
+  }
